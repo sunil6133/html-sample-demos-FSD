@@ -1,0 +1,12 @@
+.internal{
+	border: 10px solid darkred;
+	background-color: lightpink;
+	color: rgb(10, 40, 10);
+}
+#internal1{
+	font-size: 50px;
+	font-family: impact;
+	border: 10px solid skyblue;
+	background-color: black;
+	color: whitesmoke;
+}
