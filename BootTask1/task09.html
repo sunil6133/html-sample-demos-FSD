@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row gx-1 mt-3">
+            <div class="col-md-6 p2 ">
+                 
+                    <h1 class="5">Technical Hub </h1>
+                    <img style="margin-top:80px;" class="img-fluid" src="images/task09.png" alt="">
+                    <h1>Create an account</h1>
+                    <p>create an minimal sign up page using bootstrap5 and html links</p>
+                 
+            </div>
+            <div class="col-md-6 p-5 mt-4">
+              <!-- row1 -->
+              <div class="row  mt-5 ">
+                <div class="col-md-6 sm-12 p-4">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <input   type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 sm-12 p-4">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                   
+                </div>
+              </div>
+              <!-- row2 -->
+               
+              <div class="row  mt-1 " >
+                <div class="col-md-12 sm-12 p-4 ">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                         <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <input class="form-control" id="email" placeholder="Email Address" name="email" type="text">
+                    </div>
+                </div>
+              </div>
+              <!-- row3 -->
+              <div class="row  mt-1"  >
+                <div class="col-md-12 sm-12 p-4"> 
+                  <div class="input-group">
+                      <div class="input-group-addon">
+                          <i class="fa-solid fa-phone"></i>
+                      </div>
+                      <input class="form-control" id="number" placeholder="Phone Number" name="phone" type="Number">
+                  </div>
+                </div>
+              </div>
+              <!-- row4 -->
+              <div class="row mt-1"  >
+                <div class="col-md-12 sm-12 p-4">
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      <i class="fa-solid fa-user-tie"></i>
+                      
+                    </div>
+                    <select class="form-control">
+                      <option >Choose your job</option>
+                      <option value="1">fullstack developer</option>
+                      <option value="2">devops </option>
+                      <option value="3">cyber security</option>
+                      <option value="3">tester</option>
+                    </select>
+                    <div class="input-group-addon">
+                      <i class="fa-solid fa-angle-down"></i>
+                      
+                    </div>
+                     
+                     
+                </div>
+                </div>
+              </div>
+              <!-- row5 -->
+              <div class="row mt-1 ">
+                <div class="col-md-6 sm-12 p-4">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <input type="password" class="form-control" placeholder="Password" aria-label="passwd">
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 sm-12 p-4 ">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <input type="password" class="form-control" placeholder="Confirm password" aria-label="passwd">
+                    </div>
+                   
+                </div>
+              </div>
+              <!-- row6 -->
+              <div class="row mt-1 text-center" >
+                <div class="col-md-12  sm-12  ">
+                  <button class="btn btn-primary col-md-12 sm-12" type="button" >create your account</button>
+                </div>
+              </div>
+           
+              <p class="text-center">____________________________ or ____________________________</p>
+              <!-- row7 -->
+              <div class="row mt-1 text-center"> 
+                  <div class="col-md-12 sm-12 ">
+                    <button type="submit" class="btn btn-primary col-md-12 sm-12"><i class="fa-brands fa-facebook"></i>continue with facebook</button><br>
+                    <br>
+                    <button type="submit" class="btn btn-primary col-md-12 sm-12"><i class="fa-brands fa-twitter"></i>continue with twitter</button>
+                    <br><br>
+                    <p>Already Registered? <a style="list-style-type: none;" href="#">login</a></p>
+
+                  </div>
+              </div>
+              <!-- row8 -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
