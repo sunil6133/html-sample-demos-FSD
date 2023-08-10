@@ -1,0 +1,72 @@
+.d1{
+	height: 500px;
+	width: 1000px;
+	background-color: skyblue;
+}
+.d2{
+	height: 300px;
+	width: 200px;
+	background-color: whitesmoke;
+	border-radius: 50px;
+	margin-top: 70px;
+	float: left;
+	margin-left: 100px;
+	margin-right: 1px;
+}
+
+.d3{
+	height: 300px;
+	width: 200px;
+	background-color: whitesmoke;
+	border-radius: 40px;
+	margin-top: 70px;
+	float: left;
+	margin-left: 50px;	
+}
+.d4{
+	height: 300px;
+	width: 200px;
+	background-color: whitesmoke;
+	border-radius: 50px;
+	margin-top: 70px;
+	float: left;
+	margin-left: 50px;
+}
+#icon1{
+	padding-left: 30px;
+	margin-top: 50px;
+	margin-left: 50px;
+	text-align: center;
+
+}
+#icon2{
+	padding-left: 30px;
+	margin-top: 50px;
+	margin-left: 50px;
+	text-align: center;
+
+}
+#icon3{
+	padding-left: 30px;
+	margin-top: 50px;
+	margin-left: 50px;
+	text-align: center;
+}
+.button1{
+	background-color: blue;
+	border-radius: 10px;
+	color: ghostwhite;
+	margin-left: 60px;
+}
+.button2{
+	background-color: blue;
+	border-radius: 10px;
+	color: ghostwhite;
+	margin-left: 60px;
+}
+.button3{
+	background-color:blue;
+	border-radius: 10px;
+	color: ghostwhite;
+	margin-left: 60px;
+}
